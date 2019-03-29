@@ -1,5 +1,5 @@
 $.ajax({
-        url: "http://itunes.apple.com/search?term=" + getQueryParameter("artist"),
+        url: "https://itunes.apple.com/search?term=" + getQueryParameter("artist"),
         dataType: "jsonp",
         success: function (answer){
             myCallBack(answer);
