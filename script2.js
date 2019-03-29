@@ -50,3 +50,4 @@ function getQueryParameter(name) {
     }
     return false;
 }
+//
